@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/man_graduation"
+    android:layout_height="match_parent"
+    tools:context="com.example.babyd_000.dav_jalandhar.Admissions">
+
+    <ImageView
+        android:id="@+id/admissionlogo"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/admission_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/admissionlogo"
+        android:shadowColor="#1c4580"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        android:text="Admissions"
+        android:textColor="#153184"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:fontFamily="serif" />
+
+    <View
+        android:id="@+id/adddiv"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/admissionlogo"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#153184" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adddiv">
+
+        <TableLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:typeface="serif"
+                    android:textSize="20dp"
+                    android:textColor="@drawable/color_admissions"
+                    android:id="@+id/AdSrSec"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="* Senior Secondary"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:typeface="serif"
+                    android:textSize="20dp"
+                    android:textColor="@drawable/color_admissions"
+                    android:id="@+id/AdUG"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="* Under Graduation Programs"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:typeface="serif"
+                    android:textSize="20dp"
+                    android:textColor="@drawable/color_admissions"
+                    android:id="@+id/AdPG"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="* Post Graduate Programs"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:onClick="OnCo"
+                    android:layout_marginTop="20dp"
+                    android:typeface="serif"
+                    android:textSize="20dp"
+                    android:textColor="@drawable/color_admissions"
+                    android:id="@+id/AdCourses"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="* Carrier-Oriented Programs"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

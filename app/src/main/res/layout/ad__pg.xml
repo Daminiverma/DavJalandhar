@@ -1,0 +1,212 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pg"
+    tools:context="com.example.babyd_000.dav_jalandhar.Ad_Sr_Sec">
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:id="@+id/pgheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Post Graduation"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:shadowColor="#262728"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        android:fontFamily="serif" />
+
+    <View
+        android:id="@+id/pgdiv"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/pgheader"
+        android:layout_margin="5dp"
+        android:background="#000000" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pgdiv">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TableRow
+                android:weightSum="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/info"/>
+                <TextView
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.9"
+                    android:text="Language"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:typeface="serif"
+                    android:textColor="#0037ff"
+                    android:textSize="17dp"
+                    android:text="        -> MA (Economics)\n        -> MA (English)\n        -> MA (Hindi)\n        -> MA (History)\n        -> MA (Political Science)\n        -> MA (Punjabi)\n        -> MA (Sanskrit)"/>
+            </TableRow>
+
+
+            <TableRow
+                android:weightSum="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/info"/>
+                <TextView
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.9"
+                    android:text="Commerce"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_marginBottom="10dp" >
+                <TextView
+                    android:typeface="serif"
+                    android:textColor="#002fff"
+                    android:textSize="17dp"
+                    android:text="        -> M.Com"/>
+            </TableRow>
+
+
+            <TableRow
+                android:weightSum="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/info"/>
+                <TextView
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.9"
+                    android:text="Basic Sciences"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:typeface="serif"
+                    android:textColor="#002fff"
+                    android:textSize="17dp"
+                    android:text="        -> M.Sc. (Chemistry)\n        -> M.Sc. (I.T.)\n        -> M.Sc. (Mathematics)\n        -> M.Sc. (Physics)\n        -> M.Sc. (Zoology)"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:weightSum="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/info"/>
+                <TextView
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.9"
+                    android:text="Computer Sciences"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:typeface="serif"
+                    android:textColor="#002fff"
+                    android:textSize="17dp"
+                    android:text="        -> M.Sc. (Computer Science)\n        -> M.Sc. (I.T.)\n"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:weightSum="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/info"/>
+                <TextView
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.9"
+                    android:text="P.G. Diplomas"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:typeface="serif"
+                    android:textColor="#002fff"
+                    android:textSize="17dp"
+                    android:text="        -> P.G.D.C.A.\n        -> P.G.D.F.S."/>
+            </TableRow>
+            <TableRow
+                android:paddingBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/RMPG"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="RM"
+                    android:text="Read More"
+                    android:textAlignment="textEnd"
+                    android:textColor="@drawable/color_readmore"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

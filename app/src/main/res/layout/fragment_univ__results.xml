@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.babyd_000.dav_jalandhar.Univ_Results">
+
+    <ImageView
+        android:id="@+id/gndulogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gndulogo"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/gndulogo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#0d409b"
+        android:textSize="20dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:text="GURU NANAK DEV UNIVERSITY"/>
+    <TextView
+        android:id="@+id/txtres"
+        android:layout_below="@+id/gndulogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:typeface="serif"
+        android:textColor="#229ac3"
+        android:textStyle="bold|italic"
+        android:text="RESULT SECTION"/>
+    <View
+        android:id="@+id/div"
+        android:layout_below="@id/txtres"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#229ac3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:id="@+id/SemSys"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/div"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/color_univ_results"
+        android:text="Semester System New (UG / PG) (11 Digits Roll Number)"
+        android:layout_width="wrap_content"
+        android:onClick="OnSemSys"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/SemSys"
+        android:id="@+id/AnnualUG"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Under Graduate (Annual Session)"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/color_univ_results"
+        android:layout_width="wrap_content"
+        android:onClick="OnAnnualUG"/>
+    <TextView
+        android:id="@+id/AnnualPG"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/AnnualUG"
+        android:text="Post Graduate (Annual Session)"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/color_univ_results"
+        android:layout_width="wrap_content"
+        android:onClick="OnAnnualPG"/>
+    <TextView
+        android:id="@+id/Diplomas"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/AnnualPG"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/color_univ_results"
+        android:text="Diplomas/ PG Diplomas / Certificates (Annual Session)"
+        android:layout_width="wrap_content"
+        android:onClick="OnDiplomas"/>
+    <TextView
+        android:id="@+id/SemPG"
+        android:layout_below="@+id/Diplomas"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="Post Graduate (Semester System)"
+        android:paddingBottom="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/color_univ_results"
+        android:layout_width="wrap_content"
+        android:onClick="OnSemPG"/>
+    <TextView
+        android:id="@+id/SemUG"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/SemPG"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/color_univ_results"
+        android:text="Under Graduate (Semester System)"
+        android:layout_width="wrap_content"
+        android:onClick="OnSemUG"/>
+</RelativeLayout>

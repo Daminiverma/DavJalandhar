@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ug"
+    tools:context="com.example.babyd_000.dav_jalandhar.Ad_Sr_Sec">
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:id="@+id/ugheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Under Graduation"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:shadowColor="#202121"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        android:fontFamily="serif" />
+
+    <View
+        android:id="@+id/ugdiv"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/ugheader"
+        android:layout_margin="5dp"
+        android:background="#000000" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ugdiv">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/info" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.9"
+                    android:text="Humanities"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="        -> B.A.\n        -> B.J.M.C."
+                    android:textColor="#002fff"
+                    android:textSize="17dp"
+                    android:typeface="serif" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/info" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.9"
+                    android:text="Commerce"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+            </TableRow>
+
+
+            <TableRow android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="        -> B.Com\n        -> B.B.A"
+                    android:textColor="#002fff"
+                    android:textSize="17dp"
+                    android:typeface="serif" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/info" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.9"
+                    android:text="Sciences"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="        -> B.Sc. (Medical)\n        -> B.Sc. (Non-Medical)\n        -> B.Sc. (Computer Science)\n        -> B.Sc. (Economics)\n        -> B.Sc. (BioTechnology)\n        -> B.Sc. (I.T.)\n        -> B.C.A.\n        -> B.F.S.T."
+                    android:textColor="#002fff"
+                    android:textSize="17dp"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:id="@+id/RMUG"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="RM"
+                    android:text="Read More"
+                    android:textAlignment="textEnd"
+                    android:textColor="@drawable/color_readmore"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

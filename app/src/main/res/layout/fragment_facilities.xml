@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bubbles"
+    android:paddingTop="10dp"
+    tools:context="com.example.babyd_000.dav_jalandhar.Facilities">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        android:freezesText="true"
+        android:shadowColor="#000033"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        android:text="Facilities"
+        android:textAlignment="center"
+        android:textColor="#000099"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/library"
+                    android:layout_weight="0.5"
+                    android:onClick="Lib"
+                    android:paddingRight="20dp"
+                    android:src="@drawable/library"
+                    style="?android:borderlessButtonStyle"/>
+
+                <ImageView
+                    android:id="@+id/cafetaria"
+                    android:layout_weight="0.5"
+                    android:onClick="Cafe"
+                    style="?android:borderlessButtonStyle"
+                    android:src="@drawable/cafetaria" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/lib"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:paddingRight="20dp"
+                    android:text="Library"
+                    android:textAlignment="center"
+                    android:textColor="#000099"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:paddingRight="20dp"
+                    android:text="Cafetaria"
+                    android:textAlignment="center"
+                    android:textColor="#000099"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/hospital"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:onClick="H1"
+                    android:src="@drawable/hospital"
+                    style="?android:borderlessButtonStyle"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hospital"
+                    android:textAlignment="center"
+                    android:textColor="#000099"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/hostel"
+                    style="?android:borderlessButtonStyle"
+                    android:layout_weight="1"
+                    android:onClick="H2"
+                    android:paddingRight="20dp"
+                    android:src="@drawable/hostel" />
+
+                <ImageView
+                    android:id="@+id/sports"
+                    style="?android:borderlessButtonStyle"
+                    android:layout_weight="1"
+                    android:onClick="Sport"
+                    android:src="@drawable/sports" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:paddingRight="20dp"
+                    android:text="Hostel"
+                    android:textAlignment="center"
+                    android:textColor="#000099"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:paddingRight="20dp"
+                    android:text="Sports"
+                    android:textAlignment="center"
+                    android:textColor="#000099"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

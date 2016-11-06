@@ -1,0 +1,206 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.babyd_000.dav_jalandhar.Downloads">
+
+    <ImageView
+        android:id="@+id/downloadlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/downloadlogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/downloadlogo"
+        android:shadowColor="#b30000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        android:text="Downloads"
+        android:textColor="#b12529"
+        android:textSize="28dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <View
+        android:id="@+id/downdiv"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/downloadlogo"
+        android:layout_marginTop="10dp"
+        android:background="#b12529" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/downdiv"
+        android:layout_centerHorizontal="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Calendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:onClick="OnCalendar"
+                    android:padding="5dp"
+                    android:text=">> Academic Calendar"
+                    android:textColor="@drawable/color_downloads"
+                    android:textSize="16dp"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Prospectus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:onClick="OnProspectus"
+                    android:padding="5dp"
+                    android:text=">> College Prospectus"
+                    android:textColor="@drawable/color_downloads"
+                    android:textSize="16dp"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Syllabus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:onClick="OnSyllabus"
+                    android:padding="5dp"
+                    android:text=">> Syllabus"
+                    android:textColor="@drawable/color_downloads"
+                    android:textSize="16dp"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Admission1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:onClick="OnAdmission1"
+                    android:padding="5dp"
+                    android:text=">> Admission Form:: 1"
+                    android:textColor="@drawable/color_downloads"
+                    android:textSize="16dp"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Admission2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:onClick="OnAdmission2"
+                    android:padding="5dp"
+                    android:text=">> Admission Form:: 2"
+                    android:textColor="@drawable/color_downloads"
+                    android:textSize="16dp"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Admission3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:onClick="OnAdmission3"
+                    android:padding="5dp"
+                    android:text=">> Admission Form:: 3"
+                    android:textColor="@drawable/color_downloads"
+                    android:textSize="16dp"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Hostel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:onClick="OnHostel1"
+                    android:padding="5dp"
+                    android:text=">> Hostel Form:: 1"
+                    android:textColor="@drawable/color_downloads"
+                    android:textSize="16dp"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Hostel2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:onClick="OnHostel2"
+                    android:padding="5dp"
+                    android:text=">> Hostel Form:: 2"
+                    android:textColor="@drawable/color_downloads"
+                    android:textSize="16dp"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Hostel3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:onClick="OnHostel3"
+                    android:padding="5dp"
+                    android:text=">> Hostel Form:: 3"
+                    android:textColor="@drawable/color_downloads"
+                    android:textSize="16dp"
+                    android:typeface="serif" />
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

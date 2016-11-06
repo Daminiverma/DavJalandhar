@@ -1,0 +1,238 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photobackground"
+    tools:context="com.example.babyd_000.dav_jalandhar.About_Col">
+
+    <TextView
+        android:id="@+id/onetwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Welcome to D.A.V College"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:shadowColor="#4e4f50"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        android:typeface="serif" />
+    <View
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/onetwo"
+        android:id="@+id/divison1"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divison1">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/davlogo" />
+            </TableRow>
+
+            <TableRow android:layout_width="wrap_content">
+
+                <TextView
+                    android:id="@+id/IntroTV"
+                    android:text="@string/introduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="10dp">
+                <View
+                    android:background="#000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:text="Principles of Arya Samaj"/>
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:src="@drawable/dayanand"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="8dp"
+                android:weightSum="1">
+                <TextView
+                    android:layout_weight="0.05"
+                    android:layout_width="0dp"
+                    android:textSize="16dp"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:text="1."/>
+                <TextView
+                    android:layout_weight="0.95"
+                    android:layout_width="0dp"
+                    android:textSize="16dp"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:text="God is the efficient cause of all true knowledge and all that is known through knowledge."/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="8dp"
+                android:weightSum="1">
+                <TextView
+                    android:layout_weight="0.05"
+                    android:layout_width="0dp"
+                    android:textSize="16dp"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:text="2."/>
+                <TextView
+                    android:layout_weight="0.95"
+                    android:layout_width="0dp"
+                    android:textSize="16dp"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:text="One should always be ready to accept truth and to renounce untruth."/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="8dp"
+                android:weightSum="1">
+                <TextView
+                    android:layout_weight="0.05"
+                    android:layout_width="0dp"
+                    android:textSize="16dp"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:text="3."/>
+                <TextView
+                    android:layout_weight="0.95"
+                    android:layout_width="0dp"
+                    android:textSize="16dp"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:text="Our conduct towards all should be guided by love, righteousness and justice."/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="8dp"
+                android:weightSum="1">
+                <TextView
+                    android:layout_weight="0.05"
+                    android:layout_width="0dp"
+                    android:textSize="16dp"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:text="4."/>
+                <TextView
+                    android:layout_weight="0.95"
+                    android:layout_width="0dp"
+                    android:textSize="16dp"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:text="We should dispel Avidya (ignorance) and promote Vidya (knowledge)."/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:onClick="OnRMPrinci"
+                    android:id="@+id/RMPrinciples"
+                    android:layout_gravity="right"
+                    android:textColor="@drawable/color_readmore"
+                    android:text="Read More"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dp">
+                <View
+                    android:background="#000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:text="The College Emblem"/>
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:src="@drawable/colgmblm"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="16dp"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:text="Crowning the emblem is the line ''Tamso Ma JyotirGamaya'' which is the part of a three line Vedic Incantation. This has been taken from the Brahadaranyaka Upanishad which forms an intrinsic part of the Yajur Veda. It is a prayer to our supreme creator to enlighten and illumine our minds thereby blessing us with the power to distinguish between right and wrong, good and evil."/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:onClick="OnRMClgEmblm"
+                    android:id="@+id/RMColgEmblm"
+                    android:layout_gravity="right"
+                    android:textColor="@drawable/color_readmore"
+                    android:text="Read More"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dp">
+                <View
+                    android:background="#000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:text="Principal's Desk"/>
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:src="@drawable/principal"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:text="While assuming the captaincy of this flagship college of DAV CMC, New Delhi, I am overwhelmed by holy feelings of reverence, awe and gratitude. As principal, heading this college offers a really big challenge as one has to match one's performance with the predecessors. Let us pick the challenge together. Let us together carve a new niche. Let us carry out the transformation and change without disturbing the continuum in tradition. Further moving in synch with time, we must empower and strengthen our traditional courses with IT and its mega reach. I have great affection for modern go-getter and dotcom generation you belong to. We offer you a vast space of trust and support. We have to work with rare energy, clarity and focus to maintain and enrich the enviable academic legacy. I am sure when a vision begins to form everything changes. Let us together steer our academicship to safe harbors."/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:onClick="OnRMPrinciDesk"
+                    android:id="@+id/RMPrinciDesk"
+                    android:layout_gravity="right"
+                    android:textColor="@drawable/color_readmore"
+                    android:text="Read More"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

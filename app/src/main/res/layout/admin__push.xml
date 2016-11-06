@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_red"
+    tools:context="com.example.babyd_000.dav_jalandhar.Admin_Push">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:typeface="serif"
+                    android:id="@+id/noti"
+                    android:text="Notifications"
+                    android:textColor="#800000"
+                    android:textSize="30dp" />
+            </TableRow>
+
+            <View
+                android:id="@+id/insrtdiv"
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_below="@+id/noti"
+                android:layout_marginBottom="15dp"
+                android:background="#b12529" />
+
+            <TableRow>
+                <TextView
+                    android:typeface="serif"
+                    android:textColor="#800000"
+                    android:textSize="20dp"
+                    android:text="Select the Users"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dp">
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/NotiClass"
+                    android:entries="@array/NotiClasses"
+                    android:touchscreenBlocksFocus="false" />
+            </TableRow>
+            <RadioGroup
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginBottom="15dp">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="I year"
+                    android:id="@+id/rb1"
+                    android:onClick="onrbclick" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="II year"
+                    android:id="@+id/rb2"
+                    android:onClick="onrbclick" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="III year"
+                    android:id="@+id/rb3"
+                    android:onClick="onrbclick" />
+            </RadioGroup>
+
+            <TableRow>
+                <TextView
+                    android:typeface="serif"
+                    android:text="Enter the message"
+                    android:textColor="#800000"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:layout_marginBottom="100dp"
+                        android:id="@+id/msg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="5"
+                        android:hint="Message"
+                        android:inputType="textMultiLine"
+                        android:textColorHint="#800000" />
+                </android.support.design.widget.TextInputLayout>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/ic_action_send" />
+
+</RelativeLayout>

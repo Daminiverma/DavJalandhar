@@ -1,0 +1,199 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/conatctbbg"
+    tools:context="com.example.babyd_000.dav_jalandhar.Contact_Us">
+    <RelativeLayout
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_margin="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/facebooklogo"
+            android:onClick="Onfacebook"/>
+        <ImageView
+            android:layout_toRightOf="@+id/facebook"
+            android:id="@+id/twitter"
+            android:layout_margin="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/twitterlogo"
+            android:onClick="Ontwitter"/>
+        <ImageView
+            android:layout_toRightOf="@+id/twitter"
+            android:id="@+id/linkedin"
+            android:layout_margin="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/linkedinlogo"
+            android:onClick="Onlinkedin"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/contactlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/contactlogo" />
+
+    <TextView
+        android:id="@+id/contactheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_toRightOf="@+id/contactlogo"
+        android:text="CONTACT US"
+        android:textColor="#0a6ffb"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:shadowColor="#0360e2"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        android:typeface="serif" />
+
+
+    <View
+        android:id="@+id/condiv"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/contactlogo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#0a6ffb" />
+    <View
+        android:id="@+id/backgr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/condiv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/contactfbg" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contactheader"
+        android:layout_marginTop="10dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/phone" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1.7"
+                    android:text="Phone:\n91-181-2255641,42,43"
+                    android:textColor="#0a6ffb"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/fax" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1.7"
+                    android:text="Fax:\n91-181-2203120"
+                    android:textColor="#0a6ffb"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/email" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1.7"
+                    android:text="E-mail:\nprincipal@davjalandhar.com"
+                    android:textColor="#0a6ffb"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/address_icon" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1.7"
+                    android:text="Address:\nMahatma Hans Raj Marg,\nDayanand Nagar Jalandhar,\nPunjab\nIndia 144008"
+                    android:textColor="#0a6ffb"
+                    android:textSize="18dp" />
+            </TableRow>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0a6ffb"
+                android:layout_marginBottom="20dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:id="@+id/imageMap"
+                    android:layout_width="380dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/map_image"
+                    android:onClick="map"/>
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

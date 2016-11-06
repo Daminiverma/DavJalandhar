@@ -1,0 +1,215 @@
+<resources>
+    <string name="app_name">DAV JALANDHAR</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="introduction"><b>DAV College Jalandhar</b> established in 1918 in the sacred memory of <b>Maharishi Dayanand Saraswati</b> to impart <b>modern knowledge</b> alongwith the <b>Vedic traditions</b> to the youth of contemporary India. The institution has grown into an academic giant in the last <b>95 years</b> of its matchless service of growth and grooming of youth of this part of the country.\n\n
+Guided by the missionary zeal and visionary approach of its founding fathers, the college is constantly <b>evolving, improving and updating itself</b>.We believe in adjusting the existing educational systems into a system that is universal and holistic, thus making every student a <b>‘global’ student</b>.\n\n
+The institution has <b>WiFi</b> campus with modern infra-structure that includes spacious and <b>well equipped lecture theaters</b>, well stocked <b>library with DELNET connections</b>. At present, DAV College Jalandhar is being administrated by <b>Principal Dr. B. B. Sharma</b> one of the most experienced administrators of the DAV organization.Principal Dr. B. B. Sharma is an <b>‘EDUCRAT”</b> under whose stewardship the college has swiftly slipped ahead in the competition.<br /> </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="libraryup">College library known as Knowledge Centre, built in the memory of Lala Lajpat Rai, can legitimately be proud to have shaped the carriers of thousands of young men and women. It came into existence in 1918 and is the store house of knowledge.Under the able and visionary stewardship of Principals and Librarians, it has progressed to be one of the richest, two storied, spacious, digital, automated and multimedia knowledge centre of this region.\n\n
+        <b>Our library is the only library in the region to provide web based OPAC.\n\n</b>
+    </string>
+    <string name="librarymid1"> <b><i>Librarian</i></b>\n<b>Sh. Naveen Saini</b></string>
+
+    <string name="librarymid2"><b><h3>* <u>DISTINCTIVE FEATURES OF LIBRARY.</u></h3></b>\n\n
+         <ul type="disc">
+             <li>It has a large number of CDs, DVDs and multimedia of Library.\n</li>
+             <li>It has numerous types of Encyclopedias, ancient scriptures, amnuscripts and rare collections of books and writings on Indian religion, culture, history and philosophy.\n</li>
+             <li>It has recently added e-resources lab for readers.\n</li>
+             <li>Library subscribes to 93 periodicals of National and International Repute and 24 Newspapers.\n</li>
+        </ul>
+    </string>
+
+    <string name="librarydown"><b><h1>* <u>FACILITIES AVAILABLE.</u></h1></b>\n\n
+    Besides above, the following services are available for the readers:\n\n
+    <ul type="disc">
+        <li>Bibliographic Services\n</li>
+        <li>Reference Service\n</li>
+        <li>Book Alert Service\n</li>
+        <li>CAS / SDI Service\n</li>
+        <li>Book Bank Section\n</li>
+        <li>Online Public Access Catalogue (OPAC).</li>
+    </ul>
+    </string>
+
+    <string name="cafe_up">While studying …….students often get so Hungry and Tired that Food and Rest cannot appear to them except in the form of CANTEEN and DAV College Jalandhar provides its students, staff and faculty with an amazing café experience in the college campus with its well maintained and well equipped Cafeteria. The cafeteria is not just a food joint but a place to relax, interact, rejuvenate and take a refuge from the daily hectic schedule!!!</string>
+    <string name="cafe1">The cafeteria has a number of food counters providing with a variety of food items to choose from!  A well-organized “coupon” system is followed in the cafeteria in which a coupon is bought from the main counter and this coupon is used to get the desired food item.</string>
+    <string name="cafe2tit"><u>VARIETY OF FOOD ITEMS</u></string>
+    <string name="cafe2des">The cafeteria has a number of food counters providing with a variety of food items to choose from!  A well-organized “coupon” system is followed in the cafeteria in which a coupon is bought from the main counter and this coupon is used to get the desired food item.</string>
+    <string name="cafe3tit"><u>PRICE AND QUALITY CONTROL</u></string>
+    <string name="cafe3des">The prices of the food items are fixed by the college authorities and are easily affordable by the students. The quality of food items is regularly monitored by the Prof. Incharge Canteen and College Medical Resident Officer.</string>
+    <string name="cafe4tit"><u>EMPHASIS ON CLEANLINESS AND HYGIENE</u></string>
+    <string name="cafe4des">Proper cleanliness and hygiene is maintained both by the cooking and cleaning teams and Prof. Incharge Canteen, College Medical Resident Officer inspect and check all the cafeterias on a regular basis.  Keeping in view the importance of a healthy diet, the cafeterias serve good quality nutritious food with a healthy touch. Green vegetable pasta, cucumber sandwiches, fresh fruit juice and salad are some healthy options.</string>
+
+    <string name="hospi_up">DAV College Jalandhar provides its students, staff and college residents with “Health-Care” facility in the college campus with its well equipped and well structured Hospital.
+    College Hospital is managed under the able guidance of qualified and experienced <b>Resident Medical Officer</b> along with his staff who is available to all for medical assistance and first aid.</string>
+    <string name="hospitit"><u>TIMING FOR SEEKING MEDICAL CONSULTATION</u></string>
+    <string name="hospides1">
+        <ul type="disc">
+        <li>Morning   8:00 a.m. – 12 noon\n</li>
+        <li>Evening    3:00 p.m. – 7:00 p.m.\n</li>
+        <li>Holidays   9:00 a.m. – 12 noon\n</li>
+    </ul>
+    </string>
+    <string name="hospides2">The college Hospital provides treatment of general disorders and performs minor surgical procedures like stitches and dressings. Proper cleanliness and hygiene is maintained along with separate rest rooms for boys, girls and staff. Each of the restrooms has a washroom attached to it along with beds for the injured and the sick. The doctor and medical experts not only provide consultancy but organize various health awareness seminars for the students from time to time. Medicines are also provided to students at discounted prices.\n\n
+    For any Emergency college has staff care to take student patient to the nearly super speciality hospitals.\n\n
+    <b><u>College Medical Helpline  :-\n0181-2255641 to 43</u></b></string>
+
+
+    <string name="spor_up">Sports are more than just games; they are about life, emotion, passion, and some of the greatest highs and lows that we can experience.  - Stripedsheep</string>
+    <string name="spor1">Before gaining knowledge about any particular field, one has to acquire an understanding of oneself. Self-understanding and self-discipline fall under a section of Physical Education and the Department of Physical Education is dedicated to it.\n\n
+                    Established in 1930, the Department of Physical Education is the pride of the college. It has the privilege of being led by some reputed sportspersons like Prof. B. S. Atwal a Hockey specialist, (1969-87), Prof. R D Kansal, a Basketball specialist, (1987-2002) and Prof. K. S. Matharu, a Hockey specialist, (2005-2006), who headed the department respectively. Presently, the Physical Education Department has got young and energetic faculty headed by Dr. Manu Sood with academic specialization in ‘Sports Psychology’, and ‘Football Coaching’ from National Institute of Sports, Patiala.</string>
+    <string name="spor2tit"><u>FACULTY :</u></string>
+    <string name="spor2des">
+        <ul type="disc">
+            <li>Dr. Manu Sood, M.A., NIS Diploma (Football), Ph.D, Head.\n</li>
+            <li>Sh. Saurabh Raj, M.P. Ed., NIS Diploma (Fencing), M.Phil.\n</li>
+            <li>Dr. Mohit Sharma, M.P.Ed., M.A., Ph.D.\n</li>
+            <li>Mr. Gurpreet Singh, M.P.Ed.\n</li>
+        </ul>
+    </string>
+    <string name="spor3tit"><u>DISTINCTIONS OF THE DEPARTMENT :</u></string>
+    <string name="spor3des">
+        <ul type="disc">
+            <li>Well qualified, young and energetic faculty.\n</li>
+            <li>Playgrounds and Sports Hostel for players.\n</li>
+            <li>With total sports activities area of 17.5 acre, the institution has well developed and maintained Cricket/Hockey/Football fields and Badminton/ Tennis/ Basketball/ Volleyballs/Handball/Kho-Kho Courts.\n</li>
+            <li>College has 2 swimming pools, indoor Shooting Range and Indoor Gymnasium etc.\n</li>
+        </ul>
+    </string>
+    <string name="spor4tit"><u>DAV SPORTS FACILITIES :</u></string>
+    <string name="spor4des">
+        <ul type="disc">
+            <li>Athletics\n</li>
+            <li>Badminton Court\n</li>
+            <li>Handball Court\n</li>
+        </ul>
+    </string>
+
+
+    <string name="hostel1">When children step out to another city for study, myriad apprehensions capture the parents about their health, food, accommodation, environment, safety and security. We, at DAV College Jalandhar understand how difficult it is to let children go away from home and so, we have created adorable hostels to provide them an optimum ambience to homely feelings.\n\n
+                    The institution has five Hostels, three for boys and two for girls. Rooms available in each Hostel are:\n\n
+         <ul type="disc">
+        <li>Lakhpat Rai Hostel  —  175 rooms\n</li>
+        <li>Mehr Chand Hostel —  198 rooms\n</li>
+        <li>Sports Hostel (Boys) —  14 rooms\n</li>
+        <li>Girls Hostel (Old) —  103 rooms\n</li>
+        <li>Girls Hostel (New)  —  38 rooms\n</li>
+        </ul>
+    </string>
+    <string name="hostel2tit"><u>AMENITIES :</u></string>
+    <string name="hostel2des">
+        <ul type="disc">
+            <li>Modern facilities like geysers, water coolers, 24 hour power back up, well maintained water supply system and washrooms, RO filtered drinking water etc. make the hostels quite suitable for a healthy stay.\n</li>
+            <li>Hostels have their own independent water supply, Tube wells and power back-up of Generators.\n</li>
+            <li>Each hostel has its well-maintained lush green lawns.\n</li>
+            <li>Some of the rooms have been provided with ACs and attached Bath Rooms.\n</li>
+        </ul>
+    </string>
+    <string name="hostel3tit"><u>FOOD AND MESS :</u></string>
+    <string name="hostel3des">
+        <ul type="disc">
+            <li>Each Hostel has its Healthy and Hygienic Mess and Canteen.\n</li>
+            <li>With a focused priority to hygiene, the hostel mess ensures a neat and home like ambience in the kitchen and dining area.\n</li>
+            <li>Canteen offers numerous cafe snacks and packed foods are also available within the hostels.\n</li>
+        </ul>
+    </string>
+    <string name="hostel4tit"><u>RECREATION :</u></string>
+    <string name="hostel4des">
+        <ul type="disc">
+            <li>There is a Common Room in each Hostel with all important indoor games in it.\n</li>
+            <li>Each Hostel has been provided with LCD television set and Music System.\n</li>
+            <li>With exclusive ‘Golden Nights’, theatre plays and festival celebrations the students enjoy some unforgettable moments with teachers, fellows and hostel staff every year.\n</li>
+        </ul>
+    </string>
+    <string name="hostel5tit"><u>The following direct telephone numbers are available after the college hours and on holidays:</u></string>
+    <string name="hostel5des">
+        <ul type="disc">
+            <li>Chief Warden  ->  2255643\n</li>
+            <li>Girls Hostel  ->  2255641\n</li>
+            <li>Mehar Chand Hostel  ->  2255642\n</li>
+            <li>LakhpatRai Hostel  ->  2255643\n</li>
+        </ul>
+    </string>
+
+
+    <string name="title_activity_admin">Admin</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_registration">Registration</string>
+    <string-array name="Classes">
+        <item>~GUEST~</item>
+        <item>Teaching Staff</item>
+        <item>Non-Teaching Staff</item>
+        <item>10+1</item>
+        <item>10+2</item>
+        <item>B.Com</item>
+        <item>BA</item>
+        <item>BBA</item>
+        <item>BCA</item>
+        <item>BFST</item>
+        <item>BJMC</item>
+        <item>BSc(Non-Medical)</item>
+        <item>BSc(Medical)</item>
+        <item>BSc(Computer Science)</item>
+        <item>BSc(Economics)</item>
+        <item>BSc(BioTechnology)</item>
+        <item>BSc(IT)</item>
+        <item>M.Com</item>
+        <item>MA(Economics)</item>
+        <item>MA(English)</item>
+        <item>MA(Hindi)</item>
+        <item>MA(History)</item>
+        <item>MA(Political Science)</item>
+        <item>MA(Punjabi)</item>
+        <item>MA(Sanskrit)</item>
+        <item>MSc(Chemistry)</item>
+        <item>MSc(IT)</item>
+        <item>MSc(Mathematics)</item>
+        <item>MSc(Physics)</item>
+        <item>MSc(Zoology)</item>
+        <item>MSc(Computer Science)</item>
+        <item>PGDCA</item>
+        <item>PGDFS</item>
+    </string-array>
+
+    <string-array name="NotiClasses">
+        <item>All</item>
+        <item>Teaching Staff</item>
+        <item>Non-Teaching Staff</item>
+        <item>10+1</item>
+        <item>10+2</item>
+        <item>B.Com</item>
+        <item>BA</item>
+        <item>BBA</item>
+        <item>BCA</item>
+        <item>BFST</item>
+        <item>BJMC</item>
+        <item>BSc(Non-Medical)</item>
+        <item>BSc(Medical)</item>
+        <item>BSc(Computer Science)</item>
+        <item>BSc(Economics)</item>
+        <item>BSc(BioTechnology)</item>
+        <item>BSc(IT)</item>
+        <item>M.Com</item>
+        <item>MA(Economics)</item>
+        <item>MA(English)</item>
+        <item>MA(Hindi)</item>
+        <item>MA(History)</item>
+        <item>MA(Political Science)</item>
+        <item>MA(Punjabi)</item>
+        <item>MA(Sanskrit)</item>
+        <item>MSc(Chemistry)</item>
+        <item>MSc(IT)</item>
+        <item>MSc(Mathematics)</item>
+        <item>MSc(Physics)</item>
+        <item>MSc(Zoology)</item>
+        <item>MSc(Computer Science)</item>
+        <item>PGDCA</item>
+        <item>PGDFS</item>
+        <item>~GUEST~</item>
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
