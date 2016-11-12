@@ -2,9 +2,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pg"
+    android:id="@+id/pg"
     tools:context="com.example.babyd_000.dav_jalandhar.Ad_Sr_Sec">
-
+    
     <TextView
         android:textStyle="bold|italic"
         android:id="@+id/pgheader"

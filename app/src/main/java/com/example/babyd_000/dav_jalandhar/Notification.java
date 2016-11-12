@@ -2,6 +2,8 @@ package com.example.babyd_000.dav_jalandhar;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
@@ -10,8 +12,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 /**
  * Created by hp on 15-Apr-16.
@@ -31,6 +37,25 @@ public class Notification extends Fragment {
         ctx = inflater.getContext();
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(ctx);
         editor = pref.edit();
+        final RelativeLayout blackboard = (RelativeLayout) view.findViewById(R.id.blackboard);
+        Picasso.with(ctx)
+                .load(R.drawable.blackboard)
+                .into(new Target() {
+                    @Override
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        blackboard.setBackgroundResource(R.drawable.blackboard);
+                    }
+
+                    @Override
+                    public void onBitmapFailed(Drawable errorDrawable) {
+                        blackboard.setBackgroundResource(R.drawable.blackboard);
+                    }
+
+                    @Override
+                    public void onPrepareLoad(Drawable placeHolderDrawable) {
+                        blackboard.setBackgroundResource(R.drawable.blackboard);
+                    }
+                });
 
         notifications = (TextView) view.findViewById(R.id.TVNoti);
         String nnn = pref.getString("notification", "No Notifications Yet...");

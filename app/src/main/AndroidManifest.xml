@@ -66,6 +66,7 @@
         <activity
             android:name=".Admin"
             android:label="@string/title_activity_admin"
+            android:windowSoftInputMode="adjustPan"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Registration"

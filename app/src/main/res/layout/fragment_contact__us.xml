@@ -2,8 +2,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/conatctbbg"
+    android:id="@+id/conatctbbg"
     tools:context="com.example.babyd_000.dav_jalandhar.Contact_Us">
+
     <RelativeLayout
         android:gravity="right"
         android:layout_width="match_parent"

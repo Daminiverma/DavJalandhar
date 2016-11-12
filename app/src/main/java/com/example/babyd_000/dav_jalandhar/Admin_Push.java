@@ -2,6 +2,8 @@ package com.example.babyd_000.dav_jalandhar;
 
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,9 +14,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RadioButton;
+import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 import java.util.concurrent.ExecutionException;
 
@@ -43,6 +50,26 @@ public class Admin_Push extends Fragment implements View.OnClickListener {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.admin__push, container, false);
         ctx = inflater.getContext();
+        final RelativeLayout login1 = (RelativeLayout) view.findViewById(R.id.loginpush);
+        Picasso .with(ctx)
+                .load(R.drawable.login_red)
+                .into(new Target() {
+                    @Override
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        login1.setBackgroundResource(R.drawable.login_red);
+                    }
+
+                    @Override
+                    public void onBitmapFailed(Drawable errorDrawable) {
+                        login1.setBackgroundResource(R.drawable.login_red);
+                    }
+
+                    @Override
+                    public void onPrepareLoad(Drawable placeHolderDrawable) {
+                        login1.setBackgroundResource(R.drawable.login_red);
+                    }
+                });
+
         msgbox = (EditText) view.findViewById(R.id.msg);
         sclass = (Spinner) view.findViewById(R.id.NotiClass);
         view.findViewById(R.id.rb1).setOnClickListener(this);
@@ -80,7 +107,7 @@ public class Admin_Push extends Fragment implements View.OnClickListener {
                 } else {
                     flag = 1;
                     if (Class.equals("All")) {
-                        Class = "";
+                        Class = "All";
                     }
                     RB1.setEnabled(false);
                     RB1.setVisibility(View.GONE);
@@ -129,6 +156,7 @@ public class Admin_Push extends Fragment implements View.OnClickListener {
                                 e.printStackTrace();
                             }
                             if (result.contains(msgbox.getText().toString())) {
+
                                 Toast.makeText(ctx, "" + masg + " sent successfully to " + Class, Toast.LENGTH_SHORT).show();
                                 msgbox.setText("");
                             }

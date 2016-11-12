@@ -2,11 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sportsback"
-    android:padding="10dp"
+    android:id="@+id/sportsback"
     tools:context=".Fac_Library">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
         android:id="@+id/sporthead1"
         android:layout_width="wrap_content"

@@ -2,12 +2,20 @@ package com.example.babyd_000.dav_jalandhar;
 
 
 import android.app.FragmentManager;
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 
 /**
@@ -25,11 +33,34 @@ public class Admissions extends Fragment implements View.OnClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        Context ctx;
         View view = inflater.inflate(R.layout.fragment_admissions, container, false);
+        ctx = inflater.getContext();
+        final RelativeLayout imageView = (RelativeLayout) view.findViewById(R.id.addmissionsback);
         view.findViewById(R.id.AdSrSec).setOnClickListener(this);
         view.findViewById(R.id.AdUG).setOnClickListener(this);
         view.findViewById(R.id.AdPG).setOnClickListener(this);
         view.findViewById(R.id.AdCourses).setOnClickListener(this);
+
+        Picasso.with(ctx)
+                .load(R.drawable.man_graduation)
+                .into(new Target() {
+                    @Override
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        imageView.setBackgroundResource(R.drawable.man_graduation);
+                    }
+
+                    @Override
+                    public void onBitmapFailed(Drawable errorDrawable) {
+                        imageView.setBackgroundResource(R.drawable.man_graduation);
+                    }
+
+                    @Override
+                    public void onPrepareLoad(Drawable placeHolderDrawable) {
+                        imageView.setBackgroundResource(R.drawable.man_graduation);
+                    }
+                });
+
         return view;
     }
 

@@ -2,8 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="20dp"
-    android:background="@drawable/login_red"
+    android:id="@+id/loginupdate"
     tools:context="com.example.babyd_000.dav_jalandhar.Admin_Updation">
 
     <ScrollView

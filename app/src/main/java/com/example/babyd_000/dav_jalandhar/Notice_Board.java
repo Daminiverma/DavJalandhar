@@ -4,6 +4,8 @@ package com.example.babyd_000.dav_jalandhar;
 import android.app.FragmentManager;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
@@ -11,8 +13,12 @@ import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 import java.util.concurrent.ExecutionException;
 
@@ -37,6 +43,27 @@ public class Notice_Board extends Fragment implements View.OnClickListener {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_notice__board, container, false);
         ctx = inflater.getContext();
+
+        final RelativeLayout notice = (RelativeLayout) view.findViewById(R.id.notice);
+        Picasso.with(ctx)
+                .load(R.drawable.notice)
+                .into(new Target() {
+                    @Override
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        notice.setBackgroundResource(R.drawable.notice);
+                    }
+
+                    @Override
+                    public void onBitmapFailed(Drawable errorDrawable) {
+                        notice.setBackgroundResource(R.drawable.notice);
+                    }
+
+                    @Override
+                    public void onPrepareLoad(Drawable placeHolderDrawable) {
+                        notice.setBackgroundResource(R.drawable.notice);
+                    }
+                });
+
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(ctx);
         editor = pref.edit();
 

@@ -3,6 +3,7 @@ package com.example.babyd_000.dav_jalandhar;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -12,8 +13,12 @@ import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 import java.util.concurrent.ExecutionException;
 
@@ -38,6 +43,7 @@ public class Description extends Fragment {
         // Inflate the layout for this fragment
         ctx = inflater.getContext();
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(ctx);
+        final RelativeLayout descpage = (RelativeLayout) view.findViewById(R.id.descpage);
         editor = pref.edit();
         tit = (TextView) view.findViewById(R.id.tit);
         desc = (TextView) view.findViewById(R.id.desc);
@@ -47,12 +53,50 @@ public class Description extends Fragment {
         String result = "", title, type;
         type = pref.getString("Type", "null");
         if (type == "Releases") {
-            //view.findViewById(R.id.descpage).setBackground(getResources()(R.drawable.newspaper));
-            view.findViewById(R.id.descpage).setBackgroundResource(R.drawable.newspaper);
+
+            Picasso.with(ctx)
+                    .load(R.drawable.newspaper)
+                    .into(new Target() {
+                        @Override
+                        public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                            descpage.setBackgroundResource(R.drawable.newspaper);
+                        }
+
+                        @Override
+                        public void onBitmapFailed(Drawable errorDrawable) {
+                            descpage.setBackgroundResource(R.drawable.newspaper);
+                        }
+
+                        @Override
+                        public void onPrepareLoad(Drawable placeHolderDrawable) {
+                            descpage.setBackgroundResource(R.drawable.newspaper);
+                        }
+                    });
+
             tit.setTextColor(Color.parseColor("#000000"));
             desc.setTextColor(Color.parseColor("#000000"));
         } else if (type == "Notice") {
-            view.findViewById(R.id.descpage).setBackgroundResource(R.drawable.notice);
+//            view.findViewById(R.id.descpage).setBackgroundResource(R.drawable.notice);
+
+            Picasso.with(ctx)
+                    .load(R.drawable.notice)
+                    .into(new Target() {
+                        @Override
+                        public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                            descpage.setBackgroundResource(R.drawable.notice);
+                        }
+
+                        @Override
+                        public void onBitmapFailed(Drawable errorDrawable) {
+                            descpage.setBackgroundResource(R.drawable.notice);
+                        }
+
+                        @Override
+                        public void onPrepareLoad(Drawable placeHolderDrawable) {
+                            descpage.setBackgroundResource(R.drawable.notice);
+                        }
+                    });
+
             tit.setTextColor(Color.parseColor("#800000"));
             desc.setTextColor(Color.parseColor("#800000"));
         }

@@ -1,6 +1,7 @@
 package com.example.babyd_000.dav_jalandhar;
 
 
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -9,13 +10,17 @@ import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.squareup.picasso.Picasso;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class Departments extends Fragment implements View.OnClickListener{
+    Context ctx;
 
 
     public Departments() {
@@ -27,9 +32,133 @@ public class Departments extends Fragment implements View.OnClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        ctx = inflater.getContext();
         View view = inflater.inflate(R.layout.fragment_departments, container, false);
 
-        //Declarations.....
+        //Declarations for Images......
+        ImageView imgBioTech = (ImageView) view.findViewById(R.id.biotech);
+        ImageView imgBotany = (ImageView) view.findViewById(R.id.botany);
+        ImageView imgChemistry = (ImageView) view.findViewById(R.id.chemistry);
+        ImageView imgCommerce = (ImageView) view.findViewById(R.id.commerce);
+        ImageView imgCs = (ImageView) view.findViewById(R.id.cs);
+        ImageView imgEconomics = (ImageView) view.findViewById(R.id.economics);
+        ImageView imgEnglish = (ImageView) view.findViewById(R.id.english);
+        ImageView imgFoodsc = (ImageView) view.findViewById(R.id.foodsc);
+        ImageView imgGeography = (ImageView) view.findViewById(R.id.geography);
+        ImageView imgHindi = (ImageView) view.findViewById(R.id.hindi);
+        ImageView imgHistory = (ImageView) view.findViewById(R.id.history);
+        ImageView imgMath = (ImageView) view.findViewById(R.id.math);
+        ImageView imgPhysics = (ImageView) view.findViewById(R.id.physics);
+        ImageView imgMusic = (ImageView) view.findViewById(R.id.music);
+        ImageView imgPhilosophy = (ImageView) view.findViewById(R.id.philosophy);
+        ImageView imgPoliticsc = (ImageView) view.findViewById(R.id.politicsc);
+        ImageView imgPunjabi = (ImageView) view.findViewById(R.id.punjabi);
+        ImageView imgPhyedu = (ImageView) view.findViewById(R.id.phyedu);
+        ImageView imgSunskrit = (ImageView) view.findViewById(R.id.sanskrit);
+        ImageView imgZoology = (ImageView) view.findViewById(R.id.zoology);
+
+        Picasso.with(ctx)
+                .load(R.drawable.biotech)
+                .placeholder(R.drawable.biotech)
+                .into(imgBioTech);
+
+        Picasso.with(ctx)
+                .load(R.drawable.botany)
+                .placeholder(R.drawable.botany)
+                .into(imgBotany);
+
+        Picasso.with(ctx)
+                .load(R.drawable.chemistry)
+                .placeholder(R.drawable.chemistry)
+                .into(imgChemistry);
+
+        Picasso.with(ctx)
+                .load(R.drawable.commerce)
+                .placeholder(R.drawable.commerce)
+                .into(imgCommerce);
+
+        Picasso.with(ctx)
+                .load(R.drawable.cs)
+                .placeholder(R.drawable.cs)
+                .into(imgCs);
+
+        Picasso.with(ctx)
+                .load(R.drawable.economics)
+                .placeholder(R.drawable.economics)
+                .into(imgEconomics);
+
+        Picasso.with(ctx)
+                .load(R.drawable.english)
+                .placeholder(R.drawable.english)
+                .into(imgEnglish);
+
+        Picasso.with(ctx)
+                .load(R.drawable.foodsc)
+                .placeholder(R.drawable.foodsc)
+                .into(imgFoodsc);
+
+        Picasso.with(ctx)
+                .load(R.drawable.geography)
+                .placeholder(R.drawable.geography)
+                .into(imgGeography);
+
+        Picasso.with(ctx)
+                .load(R.drawable.hindi)
+                .placeholder(R.drawable.hindi)
+                .into(imgHindi);
+
+        Picasso.with(ctx)
+                .load(R.drawable.history)
+                .placeholder(R.drawable.history)
+                .into(imgHistory);
+
+        Picasso.with(ctx)
+                .load(R.drawable.math)
+                .placeholder(R.drawable.math)
+                .into(imgMath);
+
+        Picasso.with(ctx)
+                .load(R.drawable.physics)
+                .placeholder(R.drawable.physics)
+                .into(imgPhysics);
+
+        Picasso.with(ctx)
+                .load(R.drawable.music)
+                .placeholder(R.drawable.music)
+                .into(imgMusic);
+
+        Picasso.with(ctx)
+                .load(R.drawable.philosophy)
+                .placeholder(R.drawable.philosophy)
+                .into(imgPhilosophy);
+
+        Picasso.with(ctx)
+                .load(R.drawable.politicsc)
+                .placeholder(R.drawable.politicsc)
+                .into(imgPoliticsc);
+
+        Picasso.with(ctx)
+                .load(R.drawable.punjabi)
+                .placeholder(R.drawable.punjabi)
+                .into(imgPunjabi);
+
+        Picasso.with(ctx)
+                .load(R.drawable.phyedu)
+                .placeholder(R.drawable.phyedu)
+                .into(imgPhyedu);
+
+        Picasso.with(ctx)
+                .load(R.drawable.sanskrit)
+                .placeholder(R.drawable.sanskrit)
+                .into(imgSunskrit);
+
+        Picasso.with(ctx)
+                .load(R.drawable.zoology)
+                .placeholder(R.drawable.zoology)
+                .into(imgZoology);
+
+
+        //Declarations for Text View.....
         TextView Biotech = (TextView)view.findViewById(R.id.Biotech);
         TextView Botany = (TextView)view.findViewById(R.id.Botany);
         TextView Chemistry = (TextView)view.findViewById(R.id.Chemistry);

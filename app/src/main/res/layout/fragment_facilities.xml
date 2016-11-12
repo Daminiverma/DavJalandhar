@@ -2,8 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bubbles"
-    android:paddingTop="10dp"
+    android:id="@+id/bckimg"
     tools:context="com.example.babyd_000.dav_jalandhar.Facilities">
 
     <!-- TODO: Update blank fragment layout -->
@@ -45,15 +44,14 @@
                     android:layout_weight="0.5"
                     android:onClick="Lib"
                     android:paddingRight="20dp"
-                    android:src="@drawable/library"
                     style="?android:borderlessButtonStyle"/>
+                <!--android:src="@drawable/library"-->
 
                 <ImageView
                     android:id="@+id/cafetaria"
                     android:layout_weight="0.5"
                     android:onClick="Cafe"
-                    style="?android:borderlessButtonStyle"
-                    android:src="@drawable/cafetaria" />
+                    style="?android:borderlessButtonStyle"/>
 
             </TableRow>
 
@@ -96,7 +94,6 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:onClick="H1"
-                    android:src="@drawable/hospital"
                     style="?android:borderlessButtonStyle"/>
 
             </TableRow>
@@ -126,15 +123,13 @@
                     style="?android:borderlessButtonStyle"
                     android:layout_weight="1"
                     android:onClick="H2"
-                    android:paddingRight="20dp"
-                    android:src="@drawable/hostel" />
+                    android:paddingRight="20dp" />
 
                 <ImageView
                     android:id="@+id/sports"
                     style="?android:borderlessButtonStyle"
                     android:layout_weight="1"
-                    android:onClick="Sport"
-                    android:src="@drawable/sports" />
+                    android:onClick="Sport"/>
             </TableRow>
 
             <TableRow

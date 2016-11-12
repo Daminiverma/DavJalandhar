@@ -18,6 +18,10 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+
 /**
  * Created by babyd_000 on 26-02-2016.
  */
@@ -49,94 +53,62 @@ public class Background extends AsyncTask<String, Void, String> {
         publishProgress();
         synchronized (this) {
             String conres;
-//            String type = params[0];
+            String result;
             Marquee_url = "http://dav-college.netau.net/MarqueeTitle.php";
             ReleasesTitle_url = "http://dav-college.netau.net/ReleasesTitle.php";
             NoticeTitle_url = "http://dav-college.netau.net/NoticeTitle.php";
             PlacementTitle_url = "http://dav-college.netau.net/PlacementTitle.php";
             WorkshopTitle_url = "http://dav-college.netau.net/WorkshopTitle.php";
             conn_url = "http://dav-college.netau.net/connchk.php";
-            //if (type.equals("Conn")) {
+
             try {
-                URL url = new URL(conn_url);
-                ///////////////////
-                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                httpURLConnection.setDoOutput(true);
-                httpURLConnection.setDoInput(true);
-                ///////////////////
-                InputStream inputStream = httpURLConnection.getInputStream();
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
-                String result = "";
-                String line = null;
-                while ((line = bufferedReader.readLine()) != null) {
-                    result += line;
-                }
-                bufferedReader.close();
-                inputStream.close();
-                //////////////////
-                httpURLConnection.disconnect();
-                conres = result;
+                OkHttpClient client = new OkHttpClient();
+                Request request = new Request.Builder()
+                        .url(conn_url)
+                        .build();
+
+                Response response = client.newCall(request).execute();
+                conres = response.body().string();
+
+
             } catch (MalformedURLException e) {
                 conres = "no";
-                // e.printStackTrace();
             } catch (UnsupportedEncodingException e) {
                 conres = "no";
-                //e.printStackTrace();
             } catch (IOException e) {
                 conres = "no";
-                //e.printStackTrace();
             }
-            //} else if (type.equals("MarqueeTitle")) {
             if (conres.contains("yes")) {
 
                 try {
-                    URL url = new URL(Marquee_url);
-                    ///////////////////
-                    HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                    httpURLConnection.setDoOutput(true);
-                    httpURLConnection.setDoInput(true);
-                    ///////////////////
-                    InputStream inputStream = httpURLConnection.getInputStream();
-                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
-                    String result = "";
-                    String line = null;
-                    while ((line = bufferedReader.readLine()) != null) {
-                        result += line;
-                    }
-                    bufferedReader.close();
-                    inputStream.close();
-                    //////////////////
-                    httpURLConnection.disconnect();
-                    editor.putString("Marquee", result);
-                    editor.commit();
 
-                    //return result;
+                    String result1 = "";
+                    OkHttpClient client = new OkHttpClient();
+                    Request request = new Request.Builder()
+                            .url(Marquee_url)
+                            .build();
+
+                    Response response = client.newCall(request).execute();
+                    result1 = response.body().string();
+
+                    editor.putString("Marquee", result1);
+                    editor.commit();
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
 
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                //} else if (type.equals("TitleReleases")) {
                 try {
-                    URL url = new URL(ReleasesTitle_url);
-                    ///////////////////
-                    HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                    httpURLConnection.setDoOutput(true);
-                    httpURLConnection.setDoInput(true);
-                    ///////////////////
-                    InputStream inputStream = httpURLConnection.getInputStream();
-                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
-                    String result = "";
-                    String line = null;
-                    while ((line = bufferedReader.readLine()) != null) {
-                        result += line;
-                    }
-                    bufferedReader.close();
-                    inputStream.close();
-                    //////////////////
-                    httpURLConnection.disconnect();
+                    OkHttpClient client = new OkHttpClient();
+                    Request request = new Request.Builder()
+                            .url(ReleasesTitle_url)
+                            .build();
+
+                    Response response = client.newCall(request).execute();
+                    result = response.body().string();
                     result = result.substring(1);
+
                     editor.putString("PressReleases", result);
                     editor.commit();
                     //return result;
@@ -146,56 +118,33 @@ public class Background extends AsyncTask<String, Void, String> {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                //} else if (type == "TitleNotice") {
                 try {
-                    URL url = new URL(NoticeTitle_url);
-                    ///////////////////
-                    HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                    httpURLConnection.setDoOutput(true);
-                    httpURLConnection.setDoInput(true);
-                    ///////////////////
-                    InputStream inputStream = httpURLConnection.getInputStream();
-                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
-                    String result = "";
-                    String line = null;
-                    while ((line = bufferedReader.readLine()) != null) {
+                    OkHttpClient client = new OkHttpClient();
+                    Request request = new Request.Builder()
+                            .url(NoticeTitle_url)
+                            .build();
 
-                        result += line;
-                    }
-                    bufferedReader.close();
-                    inputStream.close();
-                    //////////////////
-                    httpURLConnection.disconnect();
+                    Response response = client.newCall(request).execute();
+                    result = response.body().string();
                     result = result.substring(1);
+
                     editor.putString("NoticeBoard", result);
                     editor.commit();
-                    //return result;
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                //} else if (type == "TitlePlacement") {
                 try {
-                    URL url = new URL(PlacementTitle_url);
-                    ///////////////////
-                    HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                    httpURLConnection.setDoOutput(true);
-                    httpURLConnection.setDoInput(true);
-                    ///////////////////
-                    InputStream inputStream = httpURLConnection.getInputStream();
-                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
-                    String result = "";
-                    String line = "";
-                    while ((line = bufferedReader.readLine()) != null) {
+                    OkHttpClient client = new OkHttpClient();
+                    Request request = new Request.Builder()
+                            .url(PlacementTitle_url)
+                            .build();
 
-                        result += line;
-                    }
-                    bufferedReader.close();
-                    inputStream.close();
-                    //////////////////
-                    httpURLConnection.disconnect();
+                    Response response = client.newCall(request).execute();
+                    result = response.body().string();
                     result = result.substring(1);
+
                     editor.putString("Placements", result);
                     editor.commit();
                     //return result;
@@ -204,30 +153,18 @@ public class Background extends AsyncTask<String, Void, String> {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                //} else if (type.equals("TitleWorkshop")) {
                 try {
-                    URL url = new URL(WorkshopTitle_url);
-                    ///////////////////
-                    HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                    httpURLConnection.setDoOutput(true);
-                    httpURLConnection.setDoInput(true);
-                    ///////////////////
-                    InputStream inputStream = httpURLConnection.getInputStream();
-                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
-                    String result = "";
-                    String line = "";
-                    while ((line = bufferedReader.readLine()) != null) {
+                    OkHttpClient client = new OkHttpClient();
+                    Request request = new Request.Builder()
+                            .url(WorkshopTitle_url)
+                            .build();
 
-                        result += line;
-                    }
-                    bufferedReader.close();
-                    inputStream.close();
-                    //////////////////
-                    httpURLConnection.disconnect();
+                    Response response = client.newCall(request).execute();
+                    result = response.body().string();
                     result = result.substring(1);
+
                     editor.putString("Workshop", result);
                     editor.commit();
-                    // return result;
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
                 } catch (IOException e) {
@@ -257,16 +194,13 @@ public class Background extends AsyncTask<String, Void, String> {
             Toast.makeText(context, "Internet Connection is not available...", Toast.LENGTH_SHORT).show();
         } else if (aVoid.equals("yes")) {
             context.startActivity(new Intent(context, HomeMainActivity.class));
-            String chek = pref.getString("chk","false");
-            if(chek.equals("true"))
-            {
-                ((Registration)context).finish();
+            String chek = pref.getString("chk", "false");
+            if (chek.equals("true")) {
+                ((Registration) context).finish();
                 String fals = "false";
-                editor.putString("chk",fals);
+                editor.putString("chk", fals);
                 editor.commit();
-            }
-            else
-            {
+            } else {
                 ((HomeMainActivity) context).finish();
             }
             Toast.makeText(context, "Refreshed Successfully...", Toast.LENGTH_SHORT).show();

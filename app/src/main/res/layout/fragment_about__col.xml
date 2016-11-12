@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/photobackground"
+    android:id="@+id/bckcol"
     tools:context="com.example.babyd_000.dav_jalandhar.About_Col">
 
     <TextView
@@ -43,10 +43,10 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="10dp">
 
-                <View
+                <ImageView
+                    android:id="@+id/davlogo"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/davlogo" />
+                    android:layout_height="wrap_content" />
             </TableRow>
 
             <TableRow android:layout_width="wrap_content">
@@ -78,7 +78,7 @@
             </TableRow>
             <TableRow>
                 <ImageView
-                    android:src="@drawable/dayanand"/>
+                    android:id="@+id/dayanand"/>
             </TableRow>
             <TableRow
                 android:layout_marginBottom="8dp"
@@ -178,7 +178,7 @@
             </TableRow>
             <TableRow>
                 <ImageView
-                    android:src="@drawable/colgmblm"/>
+                    android:id="@+id/colgmblm"/>
             </TableRow>
             <TableRow>
                 <TextView
@@ -214,7 +214,7 @@
             </TableRow>
             <TableRow>
                 <ImageView
-                    android:src="@drawable/principal"/>
+                    android:id="@+id/principal"/>
             </TableRow>
             <TableRow>
                 <TextView

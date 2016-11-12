@@ -5,6 +5,8 @@ import android.app.FragmentManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
@@ -13,8 +15,12 @@ import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 import java.util.concurrent.ExecutionException;
 
@@ -40,6 +46,26 @@ public class Press_Releases extends Fragment implements View.OnClickListener {
         ctx = inflater.getContext();
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(ctx);
         editor = pref.edit();
+        final RelativeLayout newspaper = (RelativeLayout) view.findViewById(R.id.newspaper);
+
+        Picasso.with(ctx)
+                .load(R.drawable.newspaper)
+                .into(new Target() {
+                    @Override
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        newspaper.setBackgroundResource(R.drawable.newspaper);
+                    }
+
+                    @Override
+                    public void onBitmapFailed(Drawable errorDrawable) {
+                        newspaper.setBackgroundResource(R.drawable.newspaper);
+                    }
+
+                    @Override
+                    public void onPrepareLoad(Drawable placeHolderDrawable) {
+                        newspaper.setBackgroundResource(R.drawable.newspaper);
+                    }
+                });
 
         pr1 = (TextView) view.findViewById(R.id.pr1);
         pr1.setOnClickListener(this);
@@ -53,6 +79,7 @@ public class Press_Releases extends Fragment implements View.OnClickListener {
         pr5.setOnClickListener(this);
         pr6 = (TextView) view.findViewById(R.id.pr6);
         pr6.setOnClickListener(this);
+
 
         String result = pref.getString("PressReleases", "nil");
         String ar[];

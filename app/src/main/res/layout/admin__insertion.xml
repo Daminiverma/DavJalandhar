@@ -1,12 +1,12 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="20dp"
-    android:background="@drawable/login_red"
+    android:id="@+id/logininsert"
     tools:context="com.example.babyd_000.dav_jalandhar.Admin_Insertion">
 
-    <!-- TODO: Update blank fragment layout -->
+
     <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
@@ -193,4 +193,5 @@
             </TableRow>
         </TableLayout>
     </ScrollView>
+
 </RelativeLayout>

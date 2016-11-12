@@ -1,14 +1,23 @@
 package com.example.babyd_000.dav_jalandhar;
 
 
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.sax.RootElement;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 
 /**
@@ -26,7 +35,30 @@ public class About_app extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        Context ctx;
         View view = inflater.inflate(R.layout.about_app, container,false);
+        final RelativeLayout imageView = (RelativeLayout) view.findViewById(R.id.about);
+        ctx = view.getContext();
+
+        Picasso.with(ctx)
+                .load(R.drawable.about)
+                .into(new Target() {
+                    @Override
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        imageView.setBackgroundResource(R.drawable.about);
+                    }
+
+                    @Override
+                    public void onBitmapFailed(Drawable errorDrawable) {
+                        imageView.setBackgroundResource(R.drawable.about);
+                    }
+
+                    @Override
+                    public void onPrepareLoad(Drawable placeHolderDrawable) {
+                        imageView.setBackgroundResource(R.drawable.about);
+                    }
+                });
+
         FloatingActionButton fabcntct = (FloatingActionButton) view.findViewById(R.id.fabcntct);
         fabcntct.setOnClickListener(new View.OnClickListener() {
             @Override

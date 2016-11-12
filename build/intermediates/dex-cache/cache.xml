@@ -3,84 +3,57 @@
 
     <item
         is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.pushbots/pushbots-lib/2.0.13/jars/classes.jar"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="635a77d3f219ad345f4b82dba86e4aabe4f35b94">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.pushbots-pushbots-lib-2.0.13_8e164d7e8e215b277451a7c38923bfdf2829ee32/classes.dex" />
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.2.1_163d34c6c029a1ff495437dcbc97c471802a1001/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_d7f897f150559b357868738d53c545c3ab474708/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-8.4.0_96d21d9c3a5ff56daca4bde7e27e14dac7575c03/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.4.0_0646ef8a6f33ab840c682514d318dd8656ccd8c1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-8.4.0_5e284dcc0fabe4d47ea32f9e0330f9f7b728d6da/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-8.4.0_1fe5091040271efc6ea6c14b290b282782efa44f/classes.dex" />
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-8.4.0_4e354ff5b362cbf26e52e190ea7bcebe0c2b0218/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-8.4.0_2bc55fc13a2fc9aca39a7a805b0ced3fc3a4c75f/classes.dex" />
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_64c0f65fdb634e4b2b822fab15660e8f6e2978b5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_ebebdcc9968a73f6e1f9320a003d81a2cd3f2a8a/classes.dex" />
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-8.4.0_7b96804e2c41730197b918b72209dbe43826ac54/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-8.4.0_12a6816728f1148b4187a227980e339b0352ee42/classes.dex" />
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_9cdd02733764d97ad6b7d71ba63fa2f01700b3cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-8.4.0_9c07c418cee48571f1133fc8ff76796bef08acb8/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -89,214 +62,538 @@
         optimize="true"
         revision="23.0.2"
         sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.4.0_3f4cf3edd647630edc7fe3f3792553e3a607f855/classes.dex" />
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.4.0_3f4cf3edd647630edc7fe3f3792553e3a607f855/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-8.4.0_de2dcd294f07fd62c1587d285336fd0b8b30be66/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_307aadcf9a309680e1df1d81bb807954de3264f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.2.1_7d5ad8c9cce9291542ba3cf71a1638cdc05d13af/classes.dex" />
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.2.1_480f5b9f71603865436c1e77f3adfcad44b00dbf/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/jars/classes.jar"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-8.4.0_9bb036379dacb49ad0fa5da08c072c1c74265407/classes.dex" />
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_7b5e7fafe87a3d101a8827c7956340a90d2ab6b4/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="58ef985ee664c9319404446c3ae0a1da508a9ab5">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a41b726c5c2b6506b11816676fc7f140cc6ce632/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.2.1_bbdd8efd76fceb64f50e3c422724257e2701e4fb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-8.4.0_007850dab599d0434fa7be6422dd3cb380902ddb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-8.4.0_903a48c684e3cc807e254c42792aec7b0d871dde/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_a56f284202d867eafe6c8cac490ca948d3623e18/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-8.4.0_1fa52dfa33d1bfc83287f345c4e296783b4c1b4b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_9266cf9f493efe1e3a4c04e70ee0d5857e15a13c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.4.0_9117a83ea46bf682f93d0070a9a5a1812908eade/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-8.4.0_8197508093ec169fe35d6c15aa3f9a8ed3557e2d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_d18b86499dfc76013e08078d96f8c806f745f4d5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_85250a706ab17b13d42e77502649a7c70399adcb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-8.4.0_2418adf855f02183be9310b33ecdb76b50febbd6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="fb489299aff5a752acca9d7b2821bf20b2d9d60f">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_25043e9e0efcc2589097e25f6828b2813fe6f960/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_dac8a7f2ab66a72d81a152ae0b25025ad6367649/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-8.4.0_918f04183b01c12ee02af9edf42db2b58ba0da57/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_78ac6a90d67a310fea18fc88068f6c5eaf28329e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_4cf5d9068c3c57d84ddd9e5ef2e0d589d5243db4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.4.0_209e229db4bbfaf31bfd496c53e0f6f760616f87/classes.dex" />
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.4.0_474fe5c3db7d723cf96cded251b3e0882bb728b5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_ca9e6533ef27afda8f2930846f8d91e543275073/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.4.0_3bb75a01fd034cfcd78a2b9efe6489e6065e313a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.2.1_a7c68a373189405f5cf606b94a527a05d2ba1a20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-8.4.0_aa913d15e00396472cad8a0b9e80b7c2ab5d60e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_31c363af52e74714c65c2ea32e09d05816f1b945/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="04de44f90606c77f3b28cf44861f306290505aac">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.4.0_ba6a16cf215075023c8012ced3eec377906a8bdd/classes.dex" />
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.4.0_fcde4809aefb51738bd94c2b713cffbf07c3e481/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/jars/classes.jar"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-8.4.0_d51925a07716c5734c0d1b19e433263ab402d670/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_fc6c0b2f0c78bb1c30814bf04a849f88757a708c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_9f1732cb5aeec63bf17c7d46415e214823ee432e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_cd98a62f96ec21192b395d862879efed7c1b1c26/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-8.4.0_09dd076793be3d771de883db933018c4266aae0a/classes.dex" />
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-8.4.0_287bda28518e4473011473e0848bf30669d86c03/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-8.4.0_1b1efffae9a7568b6c03d332f03a9d6ed3aec3c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.1.2/7052283359001bb108753cb0583a887d3bf94c82/okhttp-3.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.1.2_732b173c3d5444a18339c71b4408e70e856adf69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-8.4.0_145a0a7f20452dcae92a06d847c08b178111841d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-8.4.0_cba7cd9688bd48ef59b5fa95a56c0c18450ff141/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-8.4.0_019e19ed395972251928a4011b66cbe1ed8a825a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-8.4.0_e0b8cfde8d435d64483e12b86cccf39b806f9a77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-8.4.0_d60084afa769054c6f1fa16ac7ee62f9350c5ab9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-8.4.0_4690adaeee7971347691f970a8304e102d0a83fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.pushbots/pushbots-lib/2.0.13/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="635a77d3f219ad345f4b82dba86e4aabe4f35b94">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.pushbots-pushbots-lib-2.0.13_a6ddf58180e4230d79cd76f30e378e3c26280ae6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_103f99fab03fccfc0babef9e757b3dd3188da8da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-8.4.0_46aad4a3edec97281c968c59b9f3acd84b280727/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0f04dcb7d4dfd129fd5d78f3bdbde54fe0a17114">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_43f87290dc16b32fb0801d87464c37cd0e7c1ca5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-8.4.0_6b34be638bd39579c5686cbe58c59d615c7fdf00/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.pushbots/pushbots-lib/2.0.13/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="635a77d3f219ad345f4b82dba86e4aabe4f35b94">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.pushbots-pushbots-lib-2.0.13_d7a802004b6973d2d0c9e26beead505a3fc8323c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-8.4.0_3dae4cd875a5470859c80b956142a4d39994264a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_231cbfe71603853deedfa5995645500d9483cebd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7d712b0ec6a3d44e25e2f728af6ca505ee34cc3f">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bf693ea12bfc5d63464fe40a107599f9bb55efd5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-8.4.0_e572495638961a8a60d4a35ec0c1b8da785e17ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.4.0_2d8d0ae2f08e90c60a653691fb20c5476fa300e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-8.4.0_a32b13a8c41abeba78e56800aeda5ea41e15ed33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_217ac24a6137cc76277a5a2570bee99601e88622/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-8.4.0_426916a39ba146c53c4ba8b5d7cad5f83144f6b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-8.4.0_2fb7d56efa7f576c30a7d255427fa2b2560e25df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_9b2bfa38abea459a00914df8d7a721e696a325ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.4.0_97f239d9f4bbe1f0bcfc271b306c1117898053aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_3087df9097335758c2b8afe8f105867239280158/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_4f40b3c51c3baff87726d62d2ccceec1be7c0978/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="551e78f21acf69ebfb489c0e79647824c838013e">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-8.4.0_79713df37ff7595fa820b95aad41f2235c735502/classes.dex" />
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-8.4.0_c49991aabdaeb8cd4ac44ef7ebf084352738387a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_056eb19591108c967a42eed08b6ea8b9e0e9fc08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-8.4.0_0354f4e21a192dea133121254a4ca4f0469b88e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_40ffae42fd5231e1030ea77e42be5a87ea2d5b12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-8.4.0_ee45a2e1f62e29fcb7eb41f4f2d95ba8e2c44b74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ca78168fa66022f92c733ae58d73055981dffe6">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f2b867ec7d3a48e448df93e7c8efd6d1ad82566d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-8.4.0_bd7eaae1b21d4459217e733bd364a9b895d0f13c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.4.0_3113e64b1bded58e88ea13393af5b8cffd32a4ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_dd943170eda9b61b27deadec32aac0e0e1eae612/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-8.4.0_94ff1cb2677428021a335616a33694df467ae798/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-8.4.0_8bf2a12949e9e4152c1196912fe034271d9fa206/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.4.0_4f05bc3b478a4b1bf6d46a0d6c2772b4e3ffc7a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8fc28e7b7467414b1a228f779ad7ad89ce190e18">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_47cc0f72b8e0baf92f93a4ef4f82e6e59a4f2f38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-8.4.0_fc44bee71ca9984d0fd2c3afeabb73db85b110bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.4.0_02421a0fb8861b7fbc501bf17081d055e7706b96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_7bec908d13a054591df1422b3d6aa44e6491efa6/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -305,34 +602,70 @@
         optimize="true"
         revision="23.0.2"
         sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_1c3d985ae2c99f3da150f6f4eff8a937193285c7/classes.dex" />
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_1c3d985ae2c99f3da150f6f4eff8a937193285c7/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/jars/classes.jar"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_3ab6ba4f2d1fe936708de50cab894b2a754f0417/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-8.4.0_4e9e7b5e29bcf37c94b793d972e67fcd28cdf25d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-8.4.0_c061a63c413aea9fc4ddd333f00df2f20cbc91a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_4c33f64a579f6a4f4de210eebd4b0a0bd92ea672/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-8.4.0_2fcab960c8d24a6e86d01541c618acfb94be073c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="/Users/daminiverma/Downloads/My Dav Project/DAV_JALANDHAR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.2.1_6e033effb1be9d5df572fe5734c35a5dac2779e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-8.4.0_c1a0842a45fcd311bac1d55cd2f62c988506a882/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_70ca27e83113337e9db939f7cb69dbf8c727910d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
-        <dex dex="/Users/daminiverma/Documents/GitProjects/DavJalandhar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-8.4.0_b315be32f13101912d373c80855a8799fe9d78ea/classes.dex" />
+        <dex dex="/Users/daminiverma/Documents/Teamwork/Teamwork/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-8.4.0_05cddc9c2082cd22845295373657c770042b1e42/classes.dex" />
     </item>
 
 </items>

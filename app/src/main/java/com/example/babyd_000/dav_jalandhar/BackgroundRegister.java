@@ -19,12 +19,15 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+
 /**
  * Created by hp on 08-May-16.
  */
 public class BackgroundRegister extends AsyncTask<String,Void,String> {
     ProgressDialog progressDialog;
-    String conn_url;
     Context context;
     SharedPreferences.Editor editor;
     SharedPreferences pref;
@@ -39,38 +42,24 @@ public class BackgroundRegister extends AsyncTask<String,Void,String> {
         editor = pref.edit();
 
         String conres;
-        conn_url = "http://dav-college.netau.net/connchk.php";
         publishProgress();
         synchronized (this)
         {
             try {
-                URL url = new URL(conn_url);
-                ///////////////////
-                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                httpURLConnection.setDoOutput(true);
-                httpURLConnection.setDoInput(true);
-                ///////////////////
-                InputStream inputStream = httpURLConnection.getInputStream();
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
-                String result = "";
-                String line = null;
-                while ((line = bufferedReader.readLine()) != null) {
-                    result += line;
-                }
-                bufferedReader.close();
-                inputStream.close();
-                //////////////////
-                httpURLConnection.disconnect();
-                conres = result;
+                OkHttpClient client = new OkHttpClient();
+                Request request = new Request.Builder()
+                        .url("http://dav-college.netau.net/connchk.php")
+                        .build();
+
+                Response response = client.newCall(request).execute();
+                conres = response.body().string();
+
             } catch (MalformedURLException e) {
                 conres = "no";
-                // e.printStackTrace();
             } catch (UnsupportedEncodingException e) {
                 conres = "no";
-                //e.printStackTrace();
             } catch (IOException e) {
                 conres = "no";
-                //e.printStackTrace();
             }
         }
         return conres;

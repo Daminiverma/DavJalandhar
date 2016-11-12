@@ -4,6 +4,8 @@ package com.example.babyd_000.dav_jalandhar;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -12,7 +14,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
+
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 import java.util.concurrent.ExecutionException;
 
@@ -36,6 +42,28 @@ public class Contact_Us extends Fragment implements View.OnClickListener {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_contact__us, container, false);
         ctx = inflater.getContext();
+        final RelativeLayout conatctbbg = (RelativeLayout) view.findViewById(R.id.conatctbbg);
+
+        Picasso.with(ctx)
+                .load(R.drawable.conatctbbg)
+                .into(new Target() {
+                    @Override
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        conatctbbg.setBackgroundResource(R.drawable.conatctbbg);
+                    }
+
+                    @Override
+                    public void onBitmapFailed(Drawable errorDrawable) {
+                        conatctbbg.setBackgroundResource(R.drawable.conatctbbg);
+                    }
+
+                    @Override
+                    public void onPrepareLoad(Drawable placeHolderDrawable) {
+                        conatctbbg.setBackgroundResource(R.drawable.conatctbbg);
+                    }
+                });
+
+
 
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(ctx);
         editor = pref.edit();

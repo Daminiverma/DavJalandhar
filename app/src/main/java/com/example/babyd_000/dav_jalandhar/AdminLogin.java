@@ -5,6 +5,8 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
@@ -14,8 +16,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -52,12 +59,31 @@ public class AdminLogin extends Fragment implements View.OnClickListener {
 
         // Inflate the layout for this fragment
         ctx = inflater.getContext();
-
         View view = inflater.inflate(R.layout.fragment_admin_login, container, false);
+        final RelativeLayout imageView = (RelativeLayout) view.findViewById(R.id.login);
         log = (Button) view.findViewById(R.id.log);
         log.setOnClickListener(this);
         UsernameEt = (EditText) view.findViewById(R.id.userenter);
         PasswordEt = (EditText) view.findViewById(R.id.passenter);
+
+        Picasso.with(ctx)
+                .load(R.drawable.login_red)
+                .into(new Target() {
+                    @Override
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        imageView.setBackgroundResource(R.drawable.login_red);
+                    }
+
+                    @Override
+                    public void onBitmapFailed(Drawable errorDrawable) {
+                        imageView.setBackgroundResource(R.drawable.login_red);
+                    }
+
+                    @Override
+                    public void onPrepareLoad(Drawable placeHolderDrawable) {
+                        imageView.setBackgroundResource(R.drawable.login_red);
+                    }
+                });
         return view;
     }
 

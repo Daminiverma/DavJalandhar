@@ -55,10 +55,7 @@ public class Home extends Fragment implements View.OnClickListener {
         marquee2.setOnClickListener(this);
         String tempresultmarquee = pref.getString("Marquee", "Please Refresh..<br>.<br>.<br>.<br>");
         String resultmarquee[] = tempresultmarquee.split("<br>");
-      /*  for(int i=0;i<resultmarquee.length;i++)
-        {
-            marquee1.setText(marquee1.getText()+resultmarquee[i]);
-        }*/
+
 
         marquee1.setText(resultmarquee[0]);
         marquee2.setText(resultmarquee[2]);

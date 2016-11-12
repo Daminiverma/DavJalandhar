@@ -2,8 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/hospital_back"
-    android:padding="10dp"
+    android:id="@+id/hospital_back"
     tools:context=".Fac_Library">
 
     <!-- TODO: Update blank fragment layout -->

@@ -2,17 +2,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_red"
-    android:paddingTop="40dp"
+    android:id="@+id/login"
     tools:context="com.example.babyd_000.dav_jalandhar.AdminLogin">
 
     <!-- TODO: Update blank fragment layout -->
-
 
     <TextView
         android:id="@+id/headr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingTop="20dp"
         android:paddingLeft="10dp"
         android:shadowColor="#660000"
         android:shadowDx="3"
@@ -45,7 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:weightSum="1">
 
             <android.support.design.widget.TextInputLayout

@@ -40,7 +40,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/biotech" />
+                    android:id="@+id/biotech" />
 
                 <TextView
                     android:id="@+id/Biotech"
@@ -59,7 +59,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/botany" />
+                    android:id="@+id/botany" />
 
                 <TextView
                     android:id="@+id/Botany"
@@ -78,7 +78,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/chemistry" />
+                    android:id="@+id/chemistry" />
 
                 <TextView
                     android:id="@+id/Chemistry"
@@ -97,7 +97,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/commerce" />
+                    android:id="@+id/commerce" />
 
                 <TextView
                     android:id="@+id/Commerce"
@@ -116,7 +116,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/cs" />
+                    android:id="@+id/cs" />
 
                 <TextView
                     android:id="@+id/ComSc"
@@ -135,7 +135,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/economics" />
+                    android:id="@+id/economics" />
 
                 <TextView
                     android:id="@+id/Economics"
@@ -154,7 +154,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/english" />
+                    android:id="@+id/english" />
 
                 <TextView
                     android:id="@+id/English"
@@ -173,7 +173,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/foodsc" />
+                    android:id="@+id/foodsc" />
 
                 <TextView
                     android:id="@+id/FoodSc"
@@ -192,7 +192,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/geography" />
+                    android:id="@+id/geography" />
 
                 <TextView
                     android:id="@+id/Geography"
@@ -211,7 +211,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/hindi" />
+                    android:id="@+id/hindi" />
 
                 <TextView
                     android:id="@+id/Hindi"
@@ -230,7 +230,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/history" />
+                    android:id="@+id/history" />
 
                 <TextView
                     android:id="@+id/HIstory"
@@ -249,7 +249,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/math" />
+                    android:id="@+id/math" />
 
                 <TextView
                     android:id="@+id/Math"
@@ -268,7 +268,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/physics" />
+                    android:id="@+id/physics" />
 
                 <TextView
                     android:id="@+id/Physics"
@@ -287,7 +287,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/music" />
+                    android:id="@+id/music" />
 
                 <TextView
                     android:id="@+id/Music"
@@ -305,7 +305,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/philosophy" />
+                    android:id="@+id/philosophy" />
 
                 <TextView
                     android:id="@+id/Philosophy"
@@ -323,7 +323,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/politicsc" />
+                    android:id="@+id/politicsc" />
 
                 <TextView
                     android:id="@+id/PoliSc"
@@ -341,7 +341,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/punjabi" />
+                    android:id="@+id/punjabi" />
 
                 <TextView
                     android:id="@+id/Punjabi"
@@ -359,7 +359,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/phyedu" />
+                    android:id="@+id/phyedu" />
 
                 <TextView
                     android:id="@+id/PhyEdu"
@@ -377,7 +377,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/sanskrit" />
+                    android:id="@+id/sanskrit" />
 
                 <TextView
                     android:id="@+id/Sanskrit"
@@ -395,7 +395,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/zoology" />
+                    android:id="@+id/zoology" />
 
                 <TextView
                     android:id="@+id/Zoology"

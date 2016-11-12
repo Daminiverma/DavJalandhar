@@ -4,6 +4,8 @@ package com.example.babyd_000.dav_jalandhar;
 import android.app.FragmentManager;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
@@ -11,8 +13,13 @@ import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 import java.util.concurrent.ExecutionException;
 
@@ -39,10 +46,29 @@ public class Fac_Hospital extends Fragment implements View.OnClickListener {
         ctx = view.getContext();
         TextView rm = (TextView) view.findViewById(R.id.hospilink);
         rm.setOnClickListener(this);
-        //view.findViewById(R.id.hospilink).setOnClickListener(this);
+        final RelativeLayout imageViewhospital_back = (RelativeLayout) view.findViewById(R.id.hospital_back);
 
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(ctx);
         editor = pref.edit();
+
+        Picasso.with(ctx)
+                .load(R.drawable.hospital_back)
+                .into(new Target() {
+                    @Override
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        imageViewhospital_back.setBackgroundResource(R.drawable.hospital_back);
+                    }
+
+                    @Override
+                    public void onBitmapFailed(Drawable errorDrawable) {
+                        imageViewhospital_back.setBackgroundResource(R.drawable.hospital_back);
+                    }
+
+                    @Override
+                    public void onPrepareLoad(Drawable placeHolderDrawable) {
+                        imageViewhospital_back.setBackgroundResource(R.drawable.hospital_back);
+                    }
+                });
         return view;
     }
 

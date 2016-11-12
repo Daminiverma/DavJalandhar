@@ -10,11 +10,16 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
-import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
+
+import okhttp3.MultipartBody;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 
 /**
  * Created by babyd_000 on 06-03-2016.
@@ -28,6 +33,7 @@ public class Background1 extends AsyncTask<String, Void, String> {
         //context = ctx;                  //assign contex to local context
         this.context = ctx;
     }
+
     String PlacementDesc_url;
     String ReleasesDesc_url;
     String NoticeDesc_url;
@@ -42,196 +48,132 @@ public class Background1 extends AsyncTask<String, Void, String> {
     @Override
     protected String doInBackground(String... params) {
 
+        String result = "";
         String type = params[0];
         ReleasesDesc_url = "http://dav-college.netau.net/ReleasesDesc.php";
         NoticeDesc_url = "http://dav-college.netau.net/NoticeDesc.php";
-        PlacementDesc_url="http://dav-college.netau.net/PlacementDesc.php";
+        PlacementDesc_url = "http://dav-college.netau.net/PlacementDesc.php";
         WorshopDesc_url = "http://dav-college.netau.net/WorkshopDesc.php";
-        login_url="http://dav-college.netau.net/login.php";
+        login_url = "http://dav-college.netau.net/login.php";
         if (type.equals("Releases")) {
             try {
                 String title = params[1];
-                URL url = new URL(ReleasesDesc_url);
-                ///////////////////
-                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                httpURLConnection.setRequestMethod("POST");
-                httpURLConnection.setDoOutput(true);
-                httpURLConnection.setDoInput(true);
-                ///////////////////
-                OutputStream outputStream = httpURLConnection.getOutputStream();
-                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
-                String post_data = URLEncoder.encode("title", "UTF-8") + "=" + URLEncoder.encode(title, "UTF-8");
-                bufferedWriter.write(post_data);
-                bufferedWriter.flush();
-                bufferedWriter.close();
-                outputStream.close();
-                /////////////////
-                InputStream inputStream = httpURLConnection.getInputStream();
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
-                String result = "";
-                String line = "";
-                while ((line = bufferedReader.readLine()) != null) {
-                    result += line;
-                }
-                bufferedReader.close();
-                inputStream.close();
-                //////////////////
-                httpURLConnection.disconnect();
+
+                OkHttpClient client = new OkHttpClient();
+                RequestBody body = new MultipartBody.Builder()
+                        .setType(MultipartBody.FORM)
+                        .addFormDataPart("title", title)
+                        .build();
+
+                Request request = new Request.Builder()
+                        .url(ReleasesDesc_url)
+                        .post(body)
+                        .build();
+
+                Response response = client.newCall(request).execute();
+                result = response.body().string();
                 return result;
+
             } catch (MalformedURLException e) {
                 return "No";
-                //e.printStackTrace();
             } catch (IOException e) {
                 return "No";
-                //e.printStackTrace();
             }
         } else if (type.equals("Notice")) {
 
             try {
                 String title = params[1];
-                URL url = new URL(NoticeDesc_url);
-                ///////////////////
-                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                httpURLConnection.setRequestMethod("POST");
-                httpURLConnection.setDoOutput(true);
-                httpURLConnection.setDoInput(true);
-                ///////////////////
-                OutputStream outputStream = httpURLConnection.getOutputStream();
-                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
-                String post_data = URLEncoder.encode("title", "UTF-8") + "=" + URLEncoder.encode(title, "UTF-8");
-                bufferedWriter.write(post_data);
-                bufferedWriter.flush();
-                bufferedWriter.close();
-                outputStream.close();
-                /////////////////
-                InputStream inputStream = httpURLConnection.getInputStream();
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
-                String result = "";
-                String line = "";
-                while ((line = bufferedReader.readLine()) != null) {
-                    result += line;
-                }
-                bufferedReader.close();
-                inputStream.close();
-                //////////////////
-                httpURLConnection.disconnect();
+
+                OkHttpClient client = new OkHttpClient();
+                RequestBody body = new MultipartBody.Builder()
+                        .setType(MultipartBody.FORM)
+                        .addFormDataPart("title", title)
+                        .build();
+
+                Request request = new Request.Builder()
+                        .url(NoticeDesc_url)
+                        .post(body)
+                        .build();
+
+                Response response = client.newCall(request).execute();
+                result = response.body().string();
                 return result;
+
+
             } catch (MalformedURLException e) {
                 return "No";
-                //e.printStackTrace();
             } catch (IOException e) {
                 return "No";
-                //e.printStackTrace();
             }
-        }
-        else if (type.equals("Placements")) {
+        } else if (type.equals("Placements")) {
             try {
                 String title = params[1];
-                URL url = new URL(PlacementDesc_url);
-                ///////////////////
-                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                httpURLConnection.setRequestMethod("POST");
-                httpURLConnection.setDoOutput(true);
-                httpURLConnection.setDoInput(true);
-                ///////////////////
-                OutputStream outputStream = httpURLConnection.getOutputStream();
-                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
-                String post_data = URLEncoder.encode("title", "UTF-8") + "=" + URLEncoder.encode(title, "UTF-8");
-                bufferedWriter.write(post_data);
-                bufferedWriter.flush();
-                bufferedWriter.close();
-                outputStream.close();
-                /////////////////
-                InputStream inputStream = httpURLConnection.getInputStream();
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
-                String result = "";
-                String line = "";
-                while ((line = bufferedReader.readLine()) != null) {
-                    result += line;
-                }
-                bufferedReader.close();
-                inputStream.close();
-                //////////////////
-                httpURLConnection.disconnect();
+
+                OkHttpClient client = new OkHttpClient();
+                RequestBody body = new MultipartBody.Builder()
+                        .setType(MultipartBody.FORM)
+                        .addFormDataPart("title", title)
+                        .build();
+
+                Request request = new Request.Builder()
+                        .url(PlacementDesc_url)
+                        .post(body)
+                        .build();
+
+                Response response = client.newCall(request).execute();
+                result = response.body().string();
                 return result;
+
+
             } catch (MalformedURLException e) {
                 return "No";
-                //e.printStackTrace();
             } catch (IOException e) {
                 return "No";
-                //e.printStackTrace();
             }
-        }
-        else if (type.equals("Workshop")) {
+        } else if (type.equals("Workshop")) {
             try {
                 String title = params[1];
-                URL url = new URL(WorshopDesc_url);
-                ///////////////////
-                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                httpURLConnection.setRequestMethod("POST");
-                httpURLConnection.setDoOutput(true);
-                httpURLConnection.setDoInput(true);
-                ///////////////////
-                OutputStream outputStream = httpURLConnection.getOutputStream();
-                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
-                String post_data = URLEncoder.encode("title", "UTF-8") + "=" + URLEncoder.encode(title, "UTF-8");
-                bufferedWriter.write(post_data);
-                bufferedWriter.flush();
-                bufferedWriter.close();
-                outputStream.close();
-                /////////////////
-                InputStream inputStream = httpURLConnection.getInputStream();
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
-                String result = "";
-                String line = "";
-                while ((line = bufferedReader.readLine()) != null) {
-                    result += line;
-                }
-                bufferedReader.close();
-                inputStream.close();
-                //////////////////
-                httpURLConnection.disconnect();
+
+                OkHttpClient client = new OkHttpClient();
+                RequestBody body = new MultipartBody.Builder()
+                        .setType(MultipartBody.FORM)
+                        .addFormDataPart("title", title)
+                        .build();
+
+                Request request = new Request.Builder()
+                        .url(WorshopDesc_url)
+                        .post(body)
+                        .build();
+
+                Response response = client.newCall(request).execute();
+                result = response.body().string();
                 return result;
+
+
             } catch (MalformedURLException e) {
                 return "No";
-                //e.printStackTrace();
             } catch (IOException e) {
                 return "No";
-                //e.printStackTrace();
             }
-        }
-        else if (type.equals("login")) {
+        } else if (type.equals("login")) {
             try {
                 String user_name = params[1];
                 String password = params[2];
-                URL url = new URL(login_url);
-                ///////////////////
-                HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
-                httpURLConnection.setRequestMethod("POST");
-                httpURLConnection.setDoOutput(true);
-                httpURLConnection.setDoInput(true);
-                ///////////////////
-                OutputStream outputStream = httpURLConnection.getOutputStream();
-                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
-                String post_data = URLEncoder.encode("user_name","UTF-8")+"="+URLEncoder.encode(user_name,"UTF-8")+"&"
-                        +URLEncoder.encode("password","UTF-8")+"="+URLEncoder.encode(password,"UTF-8");
-                bufferedWriter.write(post_data);
-                bufferedWriter.flush();
-                bufferedWriter.close();
-                outputStream.close();
-                /////////////////
-                InputStream inputStream = httpURLConnection.getInputStream();
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream,"iso-8859-1"));
-                String result="";
-                String line="";
-                while((line = bufferedReader.readLine())!= null) {
-                    result += line;
-                }
-                bufferedReader.close();
-                inputStream.close();
-                //////////////////
-                httpURLConnection.disconnect();
+                MultipartBody body = new MultipartBody.Builder()
+                        .addFormDataPart(user_name, password)
+                        .build();
+
+
+                OkHttpClient client = new OkHttpClient();
+                Request request = new Request.Builder()
+                        .url(login_url)
+                        .post(body)
+                        .build();
+
+                Response response = client.newCall(request).execute();
+                result = response.body().string();
                 return result;
+
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {

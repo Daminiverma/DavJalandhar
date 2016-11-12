@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    android:background="@drawable/notice"
+    android:id="@+id/notice"
     tools:context="com.example.babyd_000.dav_jalandhar.Notice_Board">
 
     <!-- TODO: Update blank fragment layout -->

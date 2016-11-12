@@ -3,6 +3,8 @@ package com.example.babyd_000.dav_jalandhar;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
@@ -13,8 +15,13 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,10 +52,31 @@ public class Admin_Updation extends Fragment implements View.OnClickListener{
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.admin__updation, container, false);
         ctx = inflater.getContext();
+        final RelativeLayout login3 = (RelativeLayout) view.findViewById(R.id.loginupdate);
+        Picasso.with(ctx)
+                .load(R.drawable.login_red)
+                .into(new Target() {
+                    @Override
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        login3.setBackgroundResource(R.drawable.login_red);
+                    }
+
+                    @Override
+                    public void onBitmapFailed(Drawable errorDrawable) {
+                        login3.setBackgroundResource(R.drawable.login_red);
+                    }
+
+                    @Override
+                    public void onPrepareLoad(Drawable placeHolderDrawable) {
+                        login3.setBackgroundResource(R.drawable.login_red);
+                    }
+                });
+
 
         pref = PreferenceManager.getDefaultSharedPreferences(ctx);
         editor = pref.edit();
         BtnUpdate = (Button)view.findViewById(R.id.BtnUpdate);
+
 
         view.findViewById(R.id.URBPR).setOnClickListener(this);
         view.findViewById(R.id.URBNB).setOnClickListener(this);
@@ -114,7 +142,7 @@ public class Admin_Updation extends Fragment implements View.OnClickListener{
                 } catch (ExecutionException e) {
                     e.printStackTrace();
                 }
-                Toast.makeText(ctx, "" + result, Toast.LENGTH_SHORT).show();
+                Toast.makeText(ctx, "Updation Successful", Toast.LENGTH_SHORT).show();
             }
         });
 
